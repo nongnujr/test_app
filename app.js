@@ -6,5 +6,5 @@ function handleRequest(req,res){
 }
 var server = http.createServer(handleRequest)
 server.listen(process.env.PORT || 3000, function(){
-  console.log('listening on', http.address().port);
+  console.log('listening on');
 });
